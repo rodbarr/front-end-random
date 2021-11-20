@@ -1,0 +1,45 @@
+body {
+  font-family: -apple-system, Arial, sans-serif;
+}
+
+#frontPicture {
+  max-height: 120px;
+  border-radius: 200px;
+  margin: 5px;
+}
+
+header,
+#menu {
+  display: flex;
+  align-items: center;
+}
+
+h1,
+h2 {
+  color: darkblue;
+}
+
+#menu li a {
+  background-color: darkblue;
+  color: white;
+  margin: 20px;
+  padding: 8px;
+  text-decoration: none;
+}
+
+.field {
+  font-weight: bold;
+  margin: 5px;
+}
+
+#contactForm {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid lightslategray;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#menu .active {
+  background-color: lightseagreen;
+}
