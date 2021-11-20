@@ -12,7 +12,7 @@ body {
 }
 
 .hero-bg {
-  background: #307d99 url("../img/bg.jpg");
+  background: #307d99 url("/front-end-random/img/bg.jpg");
   background-position: 12% 83%;
   background-repeat: no-repeat;
   color: white;
